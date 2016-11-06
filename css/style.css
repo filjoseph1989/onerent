@@ -1,40 +1,84 @@
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url('../fonts/Raleway-Bold.ttf');
+  src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url('../fonts/Raleway-Medium.ttf');
+  src: url('../fonts/Raleway-Medium.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/Raleway-Regular.ttf');
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
 body {
-  color:#5f64b1;
+  font-family: Raleway-Regular;
+  color: #5f64ae;
 }
-.row__header h4 {
+.heading {
+  margin-top: 50px;
+}
+.heading h1,
+.bolder h1,
+.bolder h4,
+.footer__info h5 {
+  font-family: Raleway-Bold;
+}
+.bolder h1,
+.bolder h4 {
   font-weight: 600;
 }
-.row__header--p span,
-.summary span,
-.historical span {
+.heading h2 {
+  font-family: Raleway-Medium;
+  margin: 0;
+}
+.heading h4 {
+  font-family: Raleway-Medium;
+  margin: 0;
+}
+.heading__address {
   font-weight: 600;
 }
-hr {
-  border:none;
-  border-top: 1px dotted rgba(95, 100, 177, 0.5);
-  height:1px;
+.heading__offer small,
+.footer__info h5 small {color: #79cac8;}
+.summary {
+  border-top: 3px dotted #79cac8;
+  border-bottom: 3px dotted #79cac8;
+  margin: 50px 0;
+  padding: 20px 0;
 }
-.summary h2 {
-  margin-top: 0;
+.map {
+  height: 300px;
 }
-.summary__map {
-  background: url('../img/map.png') 0 0 no-repeat;
-  height: 270px;
-  background-size: contain;
+.bolder small {
+  color: #5f64ae;
+  font-family: Raleway-Regular;
 }
-.thead-bg {
+.bolder thead {
   background-color: #79cac8;
-}
-.thead-bg td {
   color: white;
 }
-.current small {
-  color: #696db5;
+.current tbody tr:nth-child(odd) {
+  background-color: #c9e7e7;
 }
-.approach hr {
-  background-color: aquamarine;
-  height: 5px;
-  border: none;
-  width: 50px;
+.sep {
+  background-color: #79cac8;
+  height: 4px;
+  width: 100px;
+  float: left;
   margin-left: 15px;
+}
+.footer__info {
+  margin-bottom: 50px;
+}
+.logo {
+  width: 300px;
+}
+.logo img {
+  max-width:100%;
 }

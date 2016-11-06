@@ -2,222 +2,265 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>One Rent Comp Analysis</title>
+    <title>One Rent Inc</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="row row__header">
-          <div class="col-md-12">
-            <h1>One Comp Analysis</h1>
-            <h4>2467 Lake Boulevard, Redmond WA</h4>
-            <p class="row__header--p">Bed:<span>2</span> | Bath:<span>2</span> | Sqft:<span>2300</span> | Rental Range: <span>$2100 - $2340</span></p>
-          </div>
-        </div>
-      </header>
-      <div class="row">
-        <hr>
-      </div>
-      <div class="row summary">
-        <div class="col-md-6">
-          <h2>Summary Statistics</h2>
-          <p> Listing Count: <span>10</span> </p>
-          <p> Max: $10000 Min: <span>$0</span> </p>
-          <p> Median: <span>$5000</span> Mean: <span>$5000</span> </p>
-          <p> Standard Deviation: <span>1</span> </p>
-          <p> Standard Error: <span>1</span> </p>
-        </div>
-        <div class="col-md-6">
-          <div class="summary__map"></div>
-        </div>
-      </div>
-      <div class="row">
-        <hr>
-      </div>
-      <div class="current row">
-        <div class="col-md-12">
-          <h4>Current Compititors Near Your Neighborhood <small>(Source: Onerent, Zillow, Trulia, Craiglist)</small></h4>
-          <table class="table table-striped">
-            <thead>
-              <tr class="thead-bg">
-                <td>Proerty Address </td>
-                <td>Beds</td>
-                <td>Baths</td>
-                <td>Sqft</td>
-                <td>Distance</td>
-                <td>On Market</td>
-                <td>Listing</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-              <tr>
-                <td>41 Rend, Dr Edmond</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2000</td>
-                <td>1 mile</td>
-                <td>88 Days</td>
-                <td>www.craiglist.com</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="historical row">
-        <div class="col-md-12">
-          <h4>Historical Rents <small>(Source: Rectometer)</small></h4>
-          <p>Median: <span>$2289</span> Radius: <span>1 mile</span> Listing age: <span>3 months</span></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <table class="table">
-            <thead>
-              <tr class="table-striped thead-bg">
-                <td>Building Type</td>
-                <td>Address</td>
-                <td>Distance</td>
-                <td>Price</td>
-                <td>Sqft</td>
-                <td>Beds</td>
-                <td>Baths</td>
-                <td>Listed</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Condo</td>
-                <td>4 Private Dr. Edmond</td>
-                <td>0.04 mi</td>
-                <td>$2300</td>
-                <td>2400</td>
-                <td>2</td>
-                <td>2</td>
-                <td>09/16</td>
-              </tr>
-              <tr>
-                <td>Apartment</td>
-                <td>14 Kelp Way, Redmond</td>
-                <td>0.04 mi</td>
-                <td>$2300</td>
-                <td>2400</td>
-                <td>2</td>
-                <td>2</td>
-                <td>09/16</td>
-              </tr>
-              <tr>
-                <td>Single Family</td>
-                <td>2 Deer Way, Redmond</td>
-                <td>0.04 mi</td>
-                <td>$2300</td>
-                <td>2400</td>
-                <td>2</td>
-                <td>2</td>
-                <td>09/16</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h4>Our Approach</h4>
-          <p>Our strategy is to lease the property at the best rate posible, while taking into account vacancy cost. The market rate will fluctuate as the
-          new properties are listed and when rental rates changes. Property conditions amnities/upgrades, maintenance and cleaning time in between
-          getting home ready, and time of year for lease all play significant factors in vacancy time</p>
-        </div>
-      </div>
-      <div class="approach row">
-        <hr class="pull-left">
-      </div>
-      <footer>
+    <header>
+      <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <p><strong> Onerent.co | 505 S. Market St. | San Jose, CA 95113 </strong></p>
-            <p>Created in sunny San Jose, CA </p>
-          </div>
-          <div class="col-md-6">
-            <img class="pull-right" src="img/logo.png">
+          <div class="col-md-12 heading">
+            <h1>Onerent Comp Analysis</h1>
+            <h4 class="heading__address">2467 Lake Blvd, Redmond WA</h4>
+            <h4 class="heading__offer">Bed: <strong>2</strong> <small>|</small> Bath: <strong>2</strong> <small>|</small> Sqft: <strong>2300</strong> <small>|</small> Rental Range: <strong>$2100 - $2340</strong></h4>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="summary bolder">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Summary Statistics</h4>
+              <p>Listing Count: <strong>10</strong></p>
+              <p> Max: <strong>$10000</strong> Min: <strong>$0</strong> </p>
+              <p> Median: <strong>$5000</strong> Mean: <strong>$5000</strong> </p>
+              <p> Standard Deviation: <strong>1</strong> </p>
+              <p> Standard Error: <strong>1</strong> </p>
+            </div>
+            <div class="col-md-6">
+              <div class="map" id="map">
+                Map Here
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="current bolder">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Current Competitors Near Your Neighborhood <small>(Source: Onerent, Zillow, Trulia, Craigslist)</small></h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <td>Property Address</td>
+                    <td>Beds</td><td>Baths</td>
+                    <td>Sqft</td>
+                    <td>Distance</td>
+                    <td>On Market</td>
+                    <td>Listing</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>41 Rend Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>45 Beet Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>81 Peak Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                  <tr>
+                    <td>21 Eant Dr, Redmond </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>1 mile</td>
+                    <td>88 days</td>
+                    <td>www.craigslist.com </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <section class="historical bolder">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Historical Rents <small>(Source: Rentometer)</small></h4>
+              <p>Median: <strong>$2289</strong> | Radius: <strong>1 mile</strong> | Listing age: <strong>3 months</strong></p>
+            </div>
+          </div>
+        </section>
+        <section class="building bolder">
+          <div class="row">
+            <div class="col-md-12">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <td>Building Type</td>
+                    <td>Address</td>
+                    <td>Distance</td>
+                    <td>Price</td>
+                    <td>Sqft</td>
+                    <td>Beds</td>
+                    <td>Baths</td>
+                    <td>Listed</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Condo </td>
+                    <td>4 Private Dr, Redmond</td>
+                    <td>0.04 mi</td>
+                    <td>$2300</td>
+                    <td>2400</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>09 / 16</td>
+                  </tr>
+                  <tr>
+                    <td>Apartment </td>
+                    <td>14 Kelp Way, Redmond</td>
+                    <td>0.04 mi</td>
+                    <td>$2300</td>
+                    <td>2400</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>09 / 16</td>
+                  </tr>
+                  <tr>
+                    <td>Single Family </td>
+                    <td>2 Deer Way, Redmond</td>
+                    <td>0.04 mi</td>
+                    <td>$2300</td>
+                    <td>2400</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>09 / 16</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <section class="approach bolder">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Our Approach</h4>
+              <p>Our strategy is to lease the property at the best rate possible, while taking into account
+              vacancy costs. The market rate will fluctuate as new properties are listed and when rental rates
+              change. Property condition, amenities/upgrades, maintenance &amp; cleaning time in between
+              getting home ready, and time of year for lease all play significant factors in the vacancy term.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <hr class="sep">
+        </div>
+        <div class="row footer__info">
+          <div class="col-md-6">
+            <h5>Onerent.co <small>|</small> 505 S. Market St. <small>|</small> San Jose, CA 95113</h5>
+            <p>Created in sunny San Jose, CA</p>
+          </div>
+          <div class="col-md-6">
+            <div class="logo pull-right">
+              <img src="images/logo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    function map () {
+    	var myCenter = new google.maps.LatLng(37.328077, -121.885391);
+    	var mapProp  = {
+    	  center:myCenter,
+    	  zoom:16,
+    	  mapTypeId:google.maps.MapTypeId.ROADMAP
+    	};
+
+    	var map    = new google.maps.Map(document.getElementById("map"),mapProp);
+    	var image  = 'images/marker.png';
+    	var marker = new google.maps.Marker({
+    	  position:myCenter,
+    	  icon:image,
+    		animation:google.maps.Animation.BOUNCE
+    	});
+    	marker.setMap(map);
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6ZtGYtvVX1xNX2PpSuk_ENF-3PVOpByU&callback=map" async defer></script>
   </body>
 </html>
