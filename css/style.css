@@ -1,0 +1,40 @@
+body {
+  color:#5f64b1;
+}
+.row__header h4 {
+  font-weight: 600;
+}
+.row__header--p span,
+.summary span,
+.historical span {
+  font-weight: 600;
+}
+hr {
+  border:none;
+  border-top: 1px dotted rgba(95, 100, 177, 0.5);
+  height:1px;
+}
+.summary h2 {
+  margin-top: 0;
+}
+.summary__map {
+  background: url('../img/map.png') 0 0 no-repeat;
+  height: 270px;
+  background-size: contain;
+}
+.thead-bg {
+  background-color: #79cac8;
+}
+.thead-bg td {
+  color: white;
+}
+.current small {
+  color: #696db5;
+}
+.approach hr {
+  background-color: aquamarine;
+  height: 5px;
+  border: none;
+  width: 50px;
+  margin-left: 15px;
+}
